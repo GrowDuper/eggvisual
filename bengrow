@@ -279,7 +279,7 @@ RunService.RenderStepped:Connect(function()
         rerollBtn.Text = string.format("[B] Reroll (%.1f)", math.max(0, timeLeft))
         rerollBtn.BackgroundColor3 = COLOR_PRIMARY
     else
-        rerollBtn.Text = "[B] Reroll Display"
+        rerollBtn.Text = "[B] Reroll Eggs"
         rerollBtn.BackgroundColor3 = COLOR_PINK
     end
 end)
